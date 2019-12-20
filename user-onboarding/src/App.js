@@ -1,13 +1,13 @@
 import React from 'react';
-
+import FormikForm from "./form";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello!</h1>
-        <p>This is a test.</p>
+        <h1>Onboarding form</h1>
+        <FormikForm />
       </header>
     </div>
   );
