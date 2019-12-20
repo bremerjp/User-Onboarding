@@ -60,13 +60,13 @@ const OnboardingForm = ({
                 />
                 <label>
                     Accept Terms of Service:
-          <Field type="checkbox" name="terms" />
+          <Field type="checkbox" name="terms" className="check"/>
                 </label>
                 <ErrorMessage
                     name="account_type"
                     render={msg => <div className="error">{msg}</div>}
                 />
-                <input className="submit" type="submit" />
+                <button className="submit" type="submit">Submit</button>
             </Form>
             {users.map(user => {
                 return (
